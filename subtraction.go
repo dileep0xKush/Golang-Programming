@@ -2,6 +2,6 @@ package main
 
 import "fmt"
 
-func main() {
+func subtraction() {
 	fmt.Println(2 - 4)
 }

@@ -1,11 +1,11 @@
 package main
 
 import (
-    "fmt"
-    "os"
+	"fmt"
+	"os"
 )
 
-func main() {
-    fmt.Println("Exiting the program")
-    os.Exit(1)
+func exitOs() {
+	fmt.Println("Exiting the program")
+	os.Exit(1)
 }

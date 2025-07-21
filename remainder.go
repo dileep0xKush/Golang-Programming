@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main(){
+func remainder() {
 
-	fmt.Println(4%3)
+	fmt.Println(4 % 3)
 }
