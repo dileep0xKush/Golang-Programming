@@ -13,6 +13,7 @@ func main() {
 	lessThanorEqual()
 	notEqualOperator()
 	equalityOperator()
+	getStringLenght()
 	// exitOs()
 
 }
