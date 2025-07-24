@@ -1,0 +1,39 @@
+Run all file 
+
+=>cd go-practice
+go run .
+
+go run *.go
+
+
+=> go run main.go equal.go not_equal.go
+
+Refence Video - https://www.youtube.com/watch?v=yZgwW6Yuc_E
+
+Refence Site - https://www.w3schools.com/go/go_conditions.php
+
+
+
+================================ Add init file ===============================
+
+ go mod init Golang(Folder Name)
+
+
+ ======================= Run all Programs a time ==============================
+
+ go run .
+
+ ==============================================================================
+
+
+ ========================== Setup for ZIN Framework =============================
+
+
+1.go mod init myapp
+2.go get -u github.com/gin-gonic/gin
+3.go run main.go
+
+if any error getting when install project then retry again with this command
+
+1.go mod tidy
+2.go get -u github.com/gin-gonic/gin
