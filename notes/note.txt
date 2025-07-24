@@ -37,3 +37,11 @@ if any error getting when install project then retry again with this command
 
 1.go mod tidy
 2.go get -u github.com/gin-gonic/gin
+
+
+You Can Use Live Reload Tools (Auto Restart on File Change)
+
+
+1.go install github.com/cosmtrek/air@latest or go install github.com/air-verse/air@latest
+2.air
+
